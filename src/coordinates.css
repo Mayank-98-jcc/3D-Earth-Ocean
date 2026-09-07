@@ -1,0 +1,4 @@
+.coordinates { position: absolute; z-index: 2; top: 76px; left: 20px; display: grid; gap: 5px; padding: 11px 12px; border: 1px solid rgb(143 227 212 / .23); border-radius: 8px; background: rgb(3 13 20 / .65); backdrop-filter: blur(8px); font-size: 11px; letter-spacing: .04em; }
+.coordinates b { margin-bottom: 3px; color: #8fe3d4; font-size: 9px; letter-spacing: .12em; }
+.coordinates span { color: rgb(255 255 255 / .85); }
+@media (max-width: 600px) { .coordinates { top: 68px; left: 14px; } }
