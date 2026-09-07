@@ -1,0 +1,5 @@
+.map-label-layer { position: absolute; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.map-label { position: absolute; transform: translate(-50%, -50%); color: rgb(235 250 255 / .9); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; font-weight: 600; letter-spacing: .03em; line-height: 1; white-space: nowrap; text-shadow: 0 1px 4px #000, 0 0 7px #000; transition: transform .14s ease, opacity .18s ease; }
+.map-label[data-type='country'] { color: #d8f5ff; font-size: 30px; letter-spacing: .08em; }
+.map-label[data-type='region'] { color: #a9dbe8; }
+.map-label[data-type='city']::before { content: '•'; margin-right: 3px; color: #f2d278; }

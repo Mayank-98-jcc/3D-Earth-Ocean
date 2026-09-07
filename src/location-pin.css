@@ -1,0 +1,2 @@
+.location-pin { position: absolute; z-index: 3; width: 18px; height: 18px; border-radius: 50% 50% 50% 0; background: #f40636; box-shadow: 0 2px 5px rgb(0 0 0 / .35); pointer-events: none; transform: translate(-50%, -100%) rotate(-45deg); }
+.location-pin::after { content: ''; position: absolute; top: 5px; left: 5px; width: 8px; height: 8px; border-radius: 50%; background: #fff; }
